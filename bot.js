@@ -17,8 +17,7 @@ bot.login(auth.token);
 
 bot.on('ready', function (evt) {
 	logger.info('Connected');
-	logger.info('Logged in as: ');
-	logger.info('Logged in as' + bot.user.username);
+	logger.info('Logged in as ' + bot.user.username);
 });
 bot.on('message', function (message) {
 	// Our bot needs to know if it will execute a command
