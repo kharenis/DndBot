@@ -1,0 +1,11 @@
+{
+  "name": "DnD-bot",
+  "version": "0.0.1",
+  "description": "The ultimate DnD bot",
+  "main": "bot.js",
+  "author": "Kharenis",
+  "dependencies": {
+    "discord.js": "^11.3.0",
+    "winston": "^2.4.0"
+  }
+}
