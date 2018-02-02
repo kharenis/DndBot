@@ -38,9 +38,9 @@ class Dnd {
 		var hitCheck = Math.floor((Math.random() * 20) + 1);
 		var hit = hitCheck + parseInt(modifiers);
 		if (hit >= parseInt(armorClass)) {
-			module.exports.write(message, ' Hit success (' + hit + ')')
+			this.write(message, ' Hit success (' + hit + ')')
 		} else {
-			module.exports.write(message, ' Hit Failed (' + hit + ')')
+			this.write(message, ' Hit Failed (' + hit + ')')
 		}
 	};
 
