@@ -2,8 +2,7 @@ const Discord = require('discord.js');
 var logger = require('winston');
 var auth = require('./auth.json');
 
-var dnd_ext = require('./dnd.js');
-var dnd = new dnd_ext();
+var dnd = new (require('./dnd.js'));
 // Configure logger settings
 logger.remove(logger.transports.Console);
 logger.add(logger.transports.Console, {
