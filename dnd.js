@@ -1,4 +1,8 @@
 class Dnd {
+	constructor()
+	{
+		this.players = [];
+	}
 	dnd_init(message) {
 		this.players = [];
 		message.channel.send('DnD game started!');
