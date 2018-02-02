@@ -1,0 +1,1 @@
+Requires winston and discord.js node packages
