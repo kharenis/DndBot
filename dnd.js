@@ -6,7 +6,7 @@ class Dnd {
 	dnd_help(message) {
 		message.channel.send('DnD Bot Help:');
 		message.channel.send('dnd_init - Reset vars and begin a new game');
-		message.channel.send('dnd_register <name> - Register your player name');
+		message.channel.send('dnd_name <name> - Register your player name');
 		message.channel.send('roll <max> <bonus> <# of die> - Rolls dice');
 		message.channel.send('hit <armor Class> <Modifiers> - Calculates a hit');
 	};
